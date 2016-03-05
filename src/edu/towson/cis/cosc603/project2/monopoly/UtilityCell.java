@@ -55,6 +55,6 @@ public class UtilityCell extends Cell {
 				int diceRoll = GameMaster.instance().getUtilDiceRoll();
 				currentPlayer.payRentTo(theOwner, getRent(diceRoll));
 			}
-		}
+		} return false;
 	}
 }

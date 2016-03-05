@@ -96,6 +96,7 @@ public class PropertyCell extends Cell {
 				currentPlayer.payRentTo(theOwner, getRent());
 			}
 		}
+		return false;
 	}
 
 	/**
